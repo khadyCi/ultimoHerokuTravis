@@ -3,6 +3,7 @@ body{
     text-align: center;
     padding-left: 40%;
     padding-right: 40%;
+    background-color: red;
 }
 body div{
     background-color: gray;

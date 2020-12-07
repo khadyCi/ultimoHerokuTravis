@@ -1,7 +1,7 @@
 language: php
 php:
-  - "7.0"
- # list any PHP version you want to test against
+ - "7.0"
+# list any PHP version you want to test against dans la travis
  
 script:
 - php index.php
@@ -16,3 +16,5 @@ deploy:
   api_key:
 
     secure: $HEROKU_API_KEY
+
+
